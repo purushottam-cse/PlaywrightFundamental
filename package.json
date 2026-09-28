@@ -1,0 +1,15 @@
+{
+  "name": "playwrightfundamental",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {},
+  "keywords": [],
+  "author": "Purushottam Simgh",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.3"
+  }
+}

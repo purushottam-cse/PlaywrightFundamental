@@ -27,5 +27,3 @@ test("BCP - in app 2 roles", async ({ browser }) => {
     await userPage.close();
     await guestPage.close();
 })
-
-test

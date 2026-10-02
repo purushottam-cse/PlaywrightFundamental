@@ -7,7 +7,7 @@ test("Navigating to the testing academy website", async ({ page }) => {
     // callback  function 
     await page.goto("https://app.thetestingacademy.com/")
 
-})
+});
 
 test("BCP - in app 2 roles", async ({ browser }) => {
 
@@ -26,4 +26,21 @@ test("BCP - in app 2 roles", async ({ browser }) => {
     await adminPage.close();
     await userPage.close();
     await guestPage.close();
-})
+});
+
+test.skip("check out with Paypal", async ({page}) => {
+    // never executed 
+});
+
+test.only("test need to be fail", async ({page}) => {
+    // always fails 
+    await page.goto("https://app.thetestingacademy.com/")
+});
+
+test.fail("", async ({page}) => { 
+    await page.goto("https://app.thetestingacademy.com/")
+    })
+
+// test.slow 
+// test.fixme -- it will be skipped 
+// test.desrcibe

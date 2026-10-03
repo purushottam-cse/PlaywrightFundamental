@@ -1,0 +1,1 @@
+// normal locator -> xpath -> css slector -> playwright 
